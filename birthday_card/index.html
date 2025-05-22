@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birthday Card</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="card">
+    <div class="message">
+      <h2>Dear Kai, I wish you a very very Happy Birthday 🎉</h2>
+      <p>Hope you have the best year and enjoy your wonderful day! 💖</p>
+    </div>
+    <img src="assets/cake.png" alt="Birthday Cake" class="cake" />
+    <canvas id="confetti-canvas"></canvas>
+  </div>
+
+  <audio id="birthday-music" autoplay loop>
+    <source src="assets/happy_birthday.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
